@@ -7,6 +7,7 @@ Procedure:
 4. Plot.
 
 Results:
+
 Tuned Lens - The plot shows that character representation in a finetuned model maintains its linguistic properties. The plot lacks clarity because of training with limited data. With more data and additiion training maybe we will achieve beter representation.
 
 Logit lens - the plot contains undefined characters in the inner layers becuase the les wasn't trained on the data and the finetuned model. The base model ([meta-llama/Llama-2-7b-chat-hf](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)) was used to create the lens which unfortunately couldn't identify hindi characters.
