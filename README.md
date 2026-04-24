@@ -1,4 +1,4 @@
-This repository contains the code to an experiment to visualise hindi character representation in the inner layers of a finetuned Llama-2 model on hindi language. Teh experiment was conducted on colab with limited resources.
+This repository contains the code to an experiment to visualise hindi character representation in the inner layers of a finetuned Llama-2 model on hindi language. The experiment was conducted on colab with limited resources.
 
 Procedure:
 
