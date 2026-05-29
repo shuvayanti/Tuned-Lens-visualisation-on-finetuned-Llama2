@@ -1,5 +1,7 @@
 This repository contains the code to an experiment to visualise hindi character representation in the inner layers of a finetuned Llama-2 model on hindi language. The experiment was conducted on colab with limited resources.
 
+The experiment served as a preliminary test for the hypothesis - *Map inner hidden representation of text tokens with segmented speech tokens to ensure universally equivalent mutual information in speech-text across languages.* More details are available in this [presentation](https://github.com/shuvayanti/Tuned-Lens-visualisation-on-finetuned-Llama2/blob/main/Ai4bharat-presentation.pdf).
+
 Procedure:
 
 1. *Data Creation & tokenizers* - The methods mentioned in the [Llama-cookbook multilingual](https://github.com/meta-llama/llama-cookbook/tree/main/end-to-end-use-cases/multilingual) recipie has been used. 1043 Hindi paragraphs were selected from the [Varta](https://huggingface.co/datasets/rahular/varta) dataset for the training purpose. The data is stored [here](https://huggingface.co/datasets/shuvayanti/data)
